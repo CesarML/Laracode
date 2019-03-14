@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 	<title>Principal</title>
 </head>
@@ -15,14 +16,17 @@
 		<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Open Modal</button>
 		
 		<!-- Modal -->
-		<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal fade" id="myModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				
 				<!-- Modal Content -->
 				<div class="modal-content">
 					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4 class="modal-tittle">Este es su nuevo proyecto creado en Laracode</h4>
+						<h4 class="modal-tittle" id="exampleModalLabel">Este es su nuevo proyecto creado en Laracode</h4>
+
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
 					</div>
 					<div class="modal-body">
 						<?php 
@@ -37,7 +41,7 @@
 						 <p><?php echo 'Nombre de la base de datos: ' . $bd ?></p>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-defaul" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 
