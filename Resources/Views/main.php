@@ -38,8 +38,8 @@
 						</button>
 					</div>
 					<div class="modal-body">
-						<?php 
-							inlude("Home.php");
+					<!-- 	<?php 
+							include 'Controllers/Home.php';
 							$proyecto = new Home();
 							$bd = new Home();
 							$proyecto->project();
@@ -47,7 +47,9 @@
 
 						 ?>
 						 <p><?php echo 'Nombre del proyecto: ' . $proyecto ?></p>
-						 <p><?php echo 'Nombre de la base de datos: ' . $bd ?></p>
+						 <p><?php echo 'Nombre de la base de datos: ' . $bd ?></p> -->
+
+						 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima corrupti cumque quas magnam, officiis tenetur quia quod. Reprehenderit, similique eius debitis quos nostrum dignissimos asperiores animi alias libero quaerat ratione!
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
