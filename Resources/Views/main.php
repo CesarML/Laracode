@@ -10,21 +10,31 @@
 	<p><h4>Bienvenido</h4></p>
 	
 	<div class="container">
+
 		<!--trigger the modal with a button-->
 		<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Open Modal</button>
 		
 		<!-- Modal -->
 		<div class="modal fade" id="myModal" role="dialog">
-			<div class="moal-dialog">
+			<div class="modal-dialog">
 				
 				<!-- Modal Content -->
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4 class="modal-tittle">Modal Header</h4>
+						<h4 class="modal-tittle">Este es su nuevo proyecto creado en Laracode</h4>
 					</div>
 					<div class="modal-body">
-						<p>Este es su nuevo proyecto creado en Laracode</p>
+						<?php 
+							inlude("Home.php");
+							$proyecto = new Home();
+							$bd = new Home();
+							$proyecto->project();
+							$bd->bd();
+
+						 ?>
+						 <p><?php echo 'Nombre del proyecto: ' . $proyecto ?></p>
+						 <p><?php echo 'Nombre de la base de datos: ' . $bd ?></p>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-defaul" data-dismiss="modal">Close</button>
