@@ -39,16 +39,23 @@
 					</div>
 					<div class="modal-body">
 								<?php 
-								 	include ('../../Controllers/Home.php');
+								 	include ('./laracode/Controllers/Home.php');
 								 	$proyecto = new Home();
 								 	$bd = new Home();
 								 	$proyecto->project();
-								 	$bd->bd();
+								 	$bdname->bd();
 								 
+								 	echo "<p>";
+								 	echo 'Nombre del proyecto: ' . $proyecto;
+								 	echo "</p>";
+
+								 	echo "<p>";
+								 	echo 'Nombre de la base de datos: ' . $bdname;
+								 	echo "</p>";
 								?>
 
-								 	<p><?php echo 'Nombre del proyecto: ' . $proyecto ?></p>
-								 	<p><?php echo 'Nombre de la base de datos: ' . $bd ?></p>			
+								 	<!-- <p><?php //echo 'Nombre del proyecto: ' . $proyecto; ?></p>
+								 	<p><?php //echo 'Nombre de la base de datos: ' . $bdname; ?></p>	 -->		
 						
 					</div>
 					<div class="modal-footer">
