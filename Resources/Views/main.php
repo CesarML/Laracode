@@ -14,7 +14,7 @@
 	/js/bootstrap.min.js"></script>
 
 	<link rel="stylesheet" href="../CSS/normalize.css">
-	<link rel="stylesheet" href="../CSS/estilos.css">
+	<link rel="stylesheet" href="CSS/estilos.css">
 
 	<title>Principal</title>
 </head>
