@@ -15,17 +15,17 @@
 
 	<link rel="stylesheet" href="../CSS/normalize.css">
 	<link rel="stylesheet" href="../CSS/estilos.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 	<title>Principal</title>
 </head>
 <body >
 	<!-- <h1 style="color: #888;">LaraCode</h1> -->
-	<img src="../Images/Logo.png" alt="logo" class="logo">
 	
 	<div class="container">
 
 		<!--trigger the modal with a button-->
-		<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Open Modal</button>
+		<button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Open Modal</button>
 		
 		<!-- Modal -->
 		<div class="modal fade" id="myModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -34,15 +34,17 @@
 				<!-- Modal Content -->
 				<div class="modal-content">
 					<div class="modal-header">
-						<h4 class="modal-tittle" id="exampleModalLabel">Este es su nuevo proyecto creado en Laracode</h4>
-
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-						</button>
+						
+						<h4 class="modal-tittle" id="exampleModalLabel">Este es su nuevo proyecto creado en Laracode</h4>			
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>					
 					</div>
 					<div class="modal-body">
 						<h3>Gracias por usar el framework Laracode</h3>
-						<img src="../Images/like.jpg" alt="like" class="like">
+							<div class="horizontal divPadre">
+								<div class="vertical">
+									<img src="../Images/like.jpg" alt="like" class="like">
+								</div>
+							</div>	
 								<!-- <?php 
 								/*
 								 	include 'Controllers/Home.php';
@@ -65,13 +67,23 @@
 						
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 
 			</div>
 		</div>
+
+
 	</div>
+
+	
+	<div class="horizontal divPadre">
+		<div class="vertical">
+			<img src="../Images/Logo.png" alt="logo" class="logo img-rounded">
+		</div>
+	</div>
+
 </body>
 </html>
 
