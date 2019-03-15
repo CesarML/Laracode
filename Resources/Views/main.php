@@ -42,7 +42,7 @@
 						<h3>Gracias por usar el framework Laracode</h3>
 							<div class="horizontal divPadre">
 								<div class="vertical">
-									<img src="../Images/like.jpg" alt="like" class="like">
+									<img src="./Resources/Images/like.jpg" alt="like" class="like">
 								</div>
 							</div>	
 								<!-- <?php 
@@ -80,7 +80,7 @@
 	
 	<div class="horizontal divPadre">
 		<div class="vertical">
-			<img src="../Images/Logo.png" alt="logo" class="logo img-rounded">
+			<img src="./Resources/Images/Logo.png" alt="logo" class="logo img-rounded">
 		</div>
 	</div>
 
