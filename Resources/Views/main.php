@@ -39,7 +39,7 @@
 					</div>
 					<div class="modal-body">
 								<?php 
-								 	include ('Controllers/Home.php');
+								 	include 'Controllers/Home.php';
 								 	$proyecto = new Home();
 								 	$bdname = new Home();
 								 	$proyecto->project();
