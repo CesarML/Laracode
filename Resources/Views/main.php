@@ -39,14 +39,14 @@
 					</div>
 					<div class="modal-body">
 								<?php 
-								 	include ('Controllers/Home.php');
+								 	include ('../../Controllers/Home.php');
 								 	$proyecto = new Home();
 								 	$bd = new Home();
 								 	$proyecto->project();
 								 	$bd->bd();
 								 
 								?>
-								
+
 								 	<p><?php echo 'Nombre del proyecto: ' . $proyecto ?></p>
 								 	<p><?php echo 'Nombre de la base de datos: ' . $bd ?></p>			
 						
