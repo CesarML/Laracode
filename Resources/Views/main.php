@@ -13,11 +13,14 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7
 	/js/bootstrap.min.js"></script>
 
+	<link rel="stylesheet" href="../CSS/normalize.css">
+	<link rel="stylesheet" href="../CSS/estilos.css">
+
 	<title>Principal</title>
 </head>
-<body style="background: linear-gradient(to right, rgba(0,255,0,0), rgba(0,255,200,1));">
-	<h1 style="color: #888;">LaraCode</h1>
-	<p><h4>Bienvenido</h4></p>
+<body >
+	<!-- <h1 style="color: #888;">LaraCode</h1> -->
+	<img src="../Images/Logo.png" alt="logo" class="logo">
 	
 	<div class="container">
 
@@ -38,7 +41,10 @@
 						</button>
 					</div>
 					<div class="modal-body">
-								<?php 
+						<h3>Gracias por usar el framework Laracode</h3>
+						<img src="../Images/like.jpg" alt="like">
+								<!-- <?php 
+								/*
 								 	include 'Controllers/Home.php';
 								 	$proyecto = new Home();
 								 	$bdname = new Home();
@@ -51,8 +57,8 @@
 
 								 	echo "<p>";
 								 	echo 'Nombre de la base de datos: ' . $bdname;
-								 	echo "</p>";
-								?>
+								 	echo "</p>";*/
+								?> -->
 
 								 	<!-- <p><?php //echo 'Nombre del proyecto: ' . $proyecto; ?></p>
 								 	<p><?php //echo 'Nombre de la base de datos: ' . $bdname; ?></p>	 -->		
@@ -68,3 +74,6 @@
 	</div>
 </body>
 </html>
+
+<!-- color de la pagina
+style="background: linear-gradient(to right, rgba(0,255,0,0), rgba(0,255,200,1));" -->
