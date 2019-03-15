@@ -14,7 +14,7 @@
 	/js/bootstrap.min.js"></script>
 
 	<link rel="stylesheet" href="../CSS/normalize.css">
-	<link rel="stylesheet" href="CSS/estilos.css">
+	<link rel="stylesheet" href="../CSS/estilos.css">
 
 	<title>Principal</title>
 </head>
@@ -42,7 +42,7 @@
 					</div>
 					<div class="modal-body">
 						<h3>Gracias por usar el framework Laracode</h3>
-						<img src="../Images/like.jpg" alt="like">
+						<img src="../Images/like.jpg" alt="like" class="like">
 								<!-- <?php 
 								/*
 								 	include 'Controllers/Home.php';
