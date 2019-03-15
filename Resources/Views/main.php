@@ -39,9 +39,9 @@
 					</div>
 					<div class="modal-body">
 								<?php 
-								 	include ('./laracode/Controllers/Home.php');
+								 	include ('Controllers/Home.php');
 								 	$proyecto = new Home();
-								 	$bd = new Home();
+								 	$bdname = new Home();
 								 	$proyecto->project();
 								 	$bdname->bd();
 								 
