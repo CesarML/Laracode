@@ -2,8 +2,10 @@
 
 class Main {
 	
+	protected $result;
+	
 	public function __construct() {
-		// Code
+		$this->result = new \stdClass();
 	}
 
 	protected function loadView($view) {
